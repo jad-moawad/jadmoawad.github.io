@@ -1,0 +1,24 @@
+---
+---
+
+@import "tale";
+
+.site-title {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.profile-image {
+    max-width: 300px;
+    border-radius: 50%;
+    float: right;
+    margin: 0 0 2rem 2rem;
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+        float: none;
+        margin: 2rem auto;
+        display: block;
+    }
+}
