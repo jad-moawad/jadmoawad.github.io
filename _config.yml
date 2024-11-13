@@ -1,38 +1,53 @@
+# Site settings
 title: "Jad Moawad"
 author: "Jad Moawad"
-#description: "© 2023-24 Jad Moawad." # Made with Jekyll using the {title: contrast, url: "https://github.com/niklasbuschmann/contrast"} theme.
+baseurl: ""
+url: ""
+
+# Theme settings
+theme: tale
+remote_theme: chesterhow/tale
 permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+paginate: 5
 
-# Layout
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-show_excerpts: false        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+# Navigation
+header_pages:
+  - index.md
+  - research.md
+  - teaching.md
 
-# Menu
+# Social links
+social:
+  - title: Github
+    url: https://github.com/jad-moawad
+    icon: github
+  - title: Twitter
+    url: https://twitter.com/jad_moawad
+    icon: twitter
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=nyE6-5MAAAAJ&hl=en&oi=ao
+    icon: graduation-cap
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/jad-moawad-a79730164/
+    icon: linkedin
+  - title: Email
+    url: mailto:jad.moawad@spi.ox.ac.uk
+    icon: envelope
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: About}
-  - {file: "research.md", title: Research}
-  - {file: "Teaching.md", title: Teaching}
-  #- {file: "README.md"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Github, icon: github, url: "https://github.com/jad-moawad"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/jad_moawad"}
-  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=nyE6-5MAAAAJ&hl=en&oi=ao"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/jad-moawad-a79730164/"}
-  - {title: Mail, icon: envelope, url: "mailto:jad.moawad@spi.ox.ac.uk"}
-
-
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
+# Plugins
 plugins:
- - jekyll-feed
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Layout options
+show_excerpts: false
+show_frame: false
+show_sidebar: false
+minimal: true
