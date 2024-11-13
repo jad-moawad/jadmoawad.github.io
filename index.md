@@ -1,8 +1,7 @@
 ---
 layout: page
 ---
-
-![Jad Moawad](assets/picture_2_website.jpg){:style="display:block;margin-left:auto;margin-right:auto"}
+![Jad Moawad](assets/picture_2_website.jpg)
 
 I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.inet.ox.ac.uk/people/jad-moawad/) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk), University of Oxford.
 
