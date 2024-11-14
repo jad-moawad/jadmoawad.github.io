@@ -5,16 +5,13 @@ baseurl: ""
 url: ""
 
 # Theme settings
-theme: tale
 remote_theme: chesterhow/tale
 permalink: /:title/
 paginate: 5
 
+
 # Build settings
 markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: :compressed
 
 # Navigation
 header_pages:
@@ -40,11 +37,12 @@ social:
     url: mailto:jad.moawad@spi.ox.ac.uk
     icon: envelope
 
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Layout options
 show_excerpts: false
