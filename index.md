@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Home"
+title: "About"
 ---
 
 ![Jad Moawad](/assets/images/profile.jpg){: .profile-image}
