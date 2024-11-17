@@ -1,3 +1,4 @@
+# Site settings
 title: "Jad Moawad"
 description: "Postdoctoral Researcher at Oxford"
 author: "Jad Moawad"
@@ -6,22 +7,18 @@ url: "https://jadmoawad.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: pretty  # This gives cleaner URLs without .html
 
-# Navigation
+# Navigation (simplified since we're handling nav in the layout)
 header_pages:
   - index.md
   - research.md
   - teaching.md
 
-# Theme settings
-remote_theme: chesterhow/tale
+# Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
+  - jekyll-seo-tag  # Keep this for better SEO
+  
 # Exclude from processing
 exclude:
   - Gemfile
@@ -30,3 +27,5 @@ exclude:
   - vendor/bundle/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - LICENSE.txt
