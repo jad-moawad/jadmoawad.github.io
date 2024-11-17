@@ -13,6 +13,4 @@ Previously, I received my Ph.D. in Social Sciences from the University of Lausan
 
 I have worked with several large-scale cross-sectional and longitudinal surveys such as the European Union Statistics on Income and Living Conditions (EU-SILC), the European Social Survey (ESS), the Household Finance and Consumption Survey (HFCS), and the Luxembourg Income Study (LIS).
 
-<div class="image-container">
-    <img src="/assets/images/profile.jpg" alt="Jad Moawad" class="profile-image">
-</div>
+![Jad Moawad](/assets/images/profile.jpg)
