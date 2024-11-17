@@ -8,6 +8,7 @@ body {
     color: #374151;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
 .container {
@@ -21,19 +22,28 @@ nav {
     padding: 1rem 0;
     border-bottom: 1px solid #e5e7eb;
     margin-bottom: 2rem;
+    background-color: #ffffff;
     
     .nav-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 56rem;
+        margin: 0 auto;
+        padding: 0 1rem;
     }
     
     .site-title {
         font-size: 1.25rem;
+        font-weight: normal;
         
         a {
             color: #111827;
             text-decoration: none;
+            
+            &:hover {
+                color: #374151;
+            }
         }
     }
     
@@ -43,6 +53,7 @@ nav {
             text-decoration: none;
             margin-left: 1.5rem;
             font-size: 0.875rem;
+            transition: color 0.2s ease;
             
             &:hover {
                 color: #374151;
@@ -50,6 +61,7 @@ nav {
             
             &.active {
                 color: #111827;
+                font-weight: 500;
             }
         }
     }
@@ -58,6 +70,7 @@ nav {
 /* Main content */
 main {
     padding: 2rem 0;
+    min-height: calc(100vh - 200px); /* Ensures footer stays at bottom */
 }
 
 .site-heading {
@@ -65,43 +78,91 @@ main {
     font-weight: normal;
     color: #111827;
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 2rem 0 3rem;
 }
 
-/* About grid */
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+/* Content Styling */
+p {
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s ease;
     
-    @media (min-width: 768px) {
-        grid-template-columns: 3fr 2fr;
+    &:hover {
+        color: #2563eb;
     }
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: normal;
+    color: #111827;
+    margin: 2rem 0 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #111827;
+    margin: 1.5rem 0 1rem;
+}
+
+/* Profile Layout */
+.profile-wrapper {
+    float: right;
+    margin: 0 0 2rem 2rem;
+    width: 256px;
     
-    .content {
-        p {
-            margin-bottom: 1.5rem;
-            
-            a {
-                color: #3b82f6;
-                text-decoration: none;
-                
-                &:hover {
-                    color: #2563eb;
-                }
-            }
+    @media (max-width: 768px) {
+        float: none;
+        margin: 2rem auto;
+        text-align: center;
+        width: 200px;
+    }
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Lists */
+ul, ol {
+    margin: 0 0 1.5rem 0;
+    padding-left: 1.5rem;
+    
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Research Section */
+.publications {
+    list-style-type: decimal;
+    
+    li {
+        margin-bottom: 1rem;
+        
+        a {
+            display: inline-block;
         }
     }
 }
 
-/* Profile image */
-.profile-image {
-    width: 100%;
-    max-width: 256px;
-    height: auto;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
+/* Teaching Section */
+.course-list {
+    list-style-type: disc;
+    
+    li {
+        margin-bottom: 0.5rem;
+    }
 }
 
 /* Footer */
@@ -111,4 +172,64 @@ footer {
     text-align: center;
     color: #6b7280;
     font-size: 0.875rem;
+    background-color: #ffffff;
+    
+    p {
+        margin: 0;
+    }
+    
+    a {
+        color: #6b7280;
+        
+        &:hover {
+            color: #374151;
+        }
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .site-heading {
+        font-size: 2.5rem;
+    }
+    
+    nav {
+        .nav-wrapper {
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+        }
+        
+        .nav-links {
+            a {
+                margin: 0 0.75rem;
+            }
+        }
+    }
+}
+
+/* Print Styles */
+@media print {
+    nav {
+        display: none;
+    }
+    
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #374151;
+    }
+    
+    .profile-image {
+        max-width: 200px;
+    }
+    
+    footer {
+        display: none;
+    }
 }
