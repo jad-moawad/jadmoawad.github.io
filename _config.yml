@@ -1,17 +1,12 @@
-# Site settings
 title: "Jad Moawad"
+description: "Postdoctoral Researcher at Oxford"
 author: "Jad Moawad"
 baseurl: ""
-url: ""
-
-# Theme settings
-remote_theme: chesterhow/tale
-permalink: /:title/
-paginate: 5
-
+url: "https://jadmoawad.github.io"
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
 
 # Navigation
 header_pages:
@@ -19,33 +14,19 @@ header_pages:
   - research.md
   - teaching.md
 
-# Social links
-social:
-  - title: Github
-    url: https://github.com/jad-moawad
-    icon: github
-  - title: Twitter
-    url: https://twitter.com/jad_moawad
-    icon: twitter
-  - title: Google Scholar
-    url: https://scholar.google.com/citations?user=nyE6-5MAAAAJ&hl=en&oi=ao
-    icon: graduation-cap
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/jad-moawad-a79730164/
-    icon: linkedin
-  - title: Email
-    url: mailto:jad.moawad@spi.ox.ac.uk
-    icon: envelope
-
-
-# Plugins
+# Theme settings
+remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
-# Layout options
-show_excerpts: false
-show_frame: false
-show_sidebar: false
-minimal: true
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/gems/
+  - vendor/ruby/
