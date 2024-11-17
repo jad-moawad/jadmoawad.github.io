@@ -1,12 +1,22 @@
-/* In styles.scss, update these sections: */
-
-/* Navigation */
+/* Navigation - fix the broken layout */
 nav {
-    padding: 1.5rem 0;  // Increased padding
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 56rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
     
     .site-title {
-        font-size: 1.75rem;  // Larger title
-        font-weight: 500;    // Slightly bolder
+        font-size: 1.5rem;  // Slightly larger but not too much
+        font-weight: 500;
         
         a {
             color: #111827;
@@ -15,67 +25,55 @@ nav {
     }
     
     .nav-links {
+        display: flex;
+        gap: 1.5rem;  // Use gap instead of margin
+        
         a {
             color: #6b7280;
             text-decoration: none;
-            margin-left: 2rem;      // Increased spacing
-            font-size: 1rem;        // Slightly larger
+            font-size: 1rem;
         }
     }
 }
 
-/* Main content */
-main {
-    padding: 3rem 0;  // More padding
-    max-width: 50rem; // Slightly narrower
+/* Fix the main content area */
+.container {
+    max-width: 56rem;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
+main {
+    padding: 2rem 0;
+}
+
+/* Fix the heading */
 .site-heading {
-    font-size: 3.5rem;        // Larger heading
-    font-weight: 600;         // Bolder
+    font-size: 3rem;
+    font-weight: 600;
     color: #111827;
-    text-align: left;         // Left-aligned like Per's site
-    margin: 3rem 0 3rem;      // More spacing
-    letter-spacing: -0.02em;  // Slight letter spacing adjustment
+    margin: 2rem 0;
+    text-align: left;
 }
 
-/* Content Styling */
-p {
-    margin-bottom: 1.5rem;
-    color: #374151;
-    font-size: 1.1rem;  // Slightly larger text
-}
-
-/* Profile Layout */
-.profile-wrapper {
+/* Fix the profile image */
+.profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
     float: right;
-    margin: 1rem 0 2rem 3rem;  // Adjusted margins
-    width: 300px;              // Larger image
+    margin: 0 0 2rem 2rem;
     
     @media (max-width: 768px) {
-        width: 250px;
+        width: 200px;
+        float: none;
+        margin: 2rem auto;
+        display: block;
     }
 }
 
-.profile-image {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    display: block;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-/* Base styles */
+/* Base text size */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.7;        // Increased line height
-    font-size: 1.1rem;       // Larger base font size
-    color: #374151;
-}
-
-.container {
-    max-width: 50rem;        // Slightly narrower container
-    margin: 0 auto;
-    padding: 0 1.5rem;       // More padding
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
