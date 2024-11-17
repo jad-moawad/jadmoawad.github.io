@@ -1,7 +1,7 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-paginate"
-  gem "jekyll-remote-theme"
-end
+
+gem "jekyll"
+gem "jekyll-seo-tag"
+
+# If you want to use GitHub Pages, uncomment this line
+# gem "github-pages", group: :jekyll_plugins
