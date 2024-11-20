@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Home
+title: About
+permalink: /
 ---
+
+# Jad Moawad
 
 I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.spi.ox.ac.uk/) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk/), University of Oxford.
 
@@ -13,5 +16,3 @@ Previously, I received my Ph.D. in Social Sciences from the University of Lausan
 
 I have worked with several large-scale cross-sectional and longitudinal surveys such as the European Union Statistics on Income and Living Conditions (EU-SILC), the European Social Survey (ESS), the Household Finance and Consumption Survey (HFCS), and the Luxembourg Income Study (LIS).
 
-{: .profile-wrapper}
-![Jad Moawad](/assets/images/profile.jpg){: .profile-image}

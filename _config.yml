@@ -1,31 +1,27 @@
 # Site settings
-title: "Jad Moawad"
-description: "Postdoctoral Researcher at Oxford"
-author: "Jad Moawad"
+title: Jad Moawad
+description: Academic Website
 baseurl: ""
 url: "https://jadmoawad.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: pretty  # This gives cleaner URLs without .html
+permalink: pretty
 
-# Navigation (simplified since we're handling nav in the layout)
-header_pages:
-  - index.md
-  - research.md
-  - teaching.md
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
-# Plugins
-plugins:
-  - jekyll-seo-tag  # Keep this for better SEO
-  
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-  - LICENSE.txt
+# Default layout settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
