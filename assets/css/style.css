@@ -136,23 +136,22 @@ h1 {
 }
 
 /* Profile Image */
-/* Profile Image */
 .profile {
     flex: 0 0 auto;          /* Prevents stretching */
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Aligns image to top */
-    padding-left: 2rem;      /* Space between text and image */
-    margin-top: -2rem;       /* Slight upward adjustment */
+    align-items: flex-start;
+    padding-left: 3rem;      /* More space from text */
 }
 
 .profile-image {
-    width: 300px;            /* Fixed width for the oval */
-    height: 200px;           /* Creates 3:2 ratio for oval shape */
-    border-radius: 100px;    /* Creates oval corners */
-    object-fit: cover;       /* Maintains image aspect ratio */
+    width: 400px;            /* Larger width */
+    height: 400px;           /* Equal height for perfect circle */
+    border-radius: 50%;      /* Perfect circle */
+    object-fit: cover;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    margin-top: -2rem;       /* Pull it up slightly */
 }
 
 .profile-image:hover {
@@ -162,8 +161,8 @@ h1 {
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
     .profile-image {
-        width: 280px;
-        height: 180px;
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -191,7 +190,8 @@ h1 {
     }
 
     .profile-image {
-        width: 250px;
-        height: 160px;
+        width: 300px;
+        height: 300px;
+        margin-top: 1rem;    /* Adjust spacing for mobile */
     }
 }
