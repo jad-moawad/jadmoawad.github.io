@@ -16,8 +16,8 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 2rem 10%; /* Reduced padding for better content width */
-    max-width: 1400px; /* Added max-width for very large screens */
+    padding: 2rem 10%;
+    max-width: 1400px;
 }
 
 /* Header Styles */
@@ -108,7 +108,6 @@ h1 {
     text-align: left;
     font-size: 1.1rem;
     color: #444;
-    max-width: none; /* Remove the max-width constraint */
 }
 
 .text-content p {
@@ -127,15 +126,15 @@ h1 {
 
 /* Profile Image */
 .profile {
-    flex: 0 0 320px;      /* Fixed width to match image size */
-    margin-left: 2rem;    /* Add space between text and image */
-    display: flex;        /* Creates a flex container for the image */
-    justify-content: center;     /* Centers the image horizontally */
-    align-items: flex-start;     /* Aligns the image to the top */
+    flex: 0 0 320px;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .profile-image {
-    width: 320px; /* Slightly reduced for better proportion */
+    width: 320px;
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
@@ -148,6 +147,7 @@ h1 {
 }
 
 /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 1200px) {
     .container {
         width: 90%;
@@ -155,18 +155,18 @@ h1 {
     }
 
     .main-content {
-        display: block; /* Change to block layout */
+        display: block;
     }
 
     .profile {
-        float: right; /* Float the image to the right */
-        margin: 0 0 2rem 2rem; /* Add margin around the image */
-        max-width: 50%; /* Ensure image doesn't get too large */
+        float: right;
+        margin: 0 0 2rem 2rem;
+        max-width: 50%;
     }
 
     .text-content {
         width: auto;
-        max-width: none;
+        /* Removed overflow: hidden to allow text to wrap around the image */
     }
 
     .profile-image {
@@ -194,24 +194,22 @@ h1 {
     }
 
     .main-content {
-        display: flex; /* Switch back to flex for mobile */
+        display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .profile-image {
-        width: 250px;
-        height: 250px;
+        gap: 2rem;
     }
 
     .profile {
         float: none;
-        margin: 0 0 2rem 0;
+        margin: 0;
         max-width: none;
+        width: 100%;
     }
-    
+
     .text-content {
-        text-align: center;
+        text-align: left; /* Changed to maintain readability */
+        width: 100%;
     }
 
     h1 {
