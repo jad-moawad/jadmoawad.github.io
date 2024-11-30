@@ -1,8 +1,9 @@
 ---
 layout: default
 title: About
-permalink: /
+permalink: /about/
 ---
+
 
 I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.spi.ox.ac.uk/) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk/), University of Oxford.
 
