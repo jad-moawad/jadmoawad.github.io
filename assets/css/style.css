@@ -143,6 +143,7 @@ h1 {
 }
 
 .profile-image {
+    margin-top: 2rem; 
     width: 100%;
     max-width: 300px; /* Adjust as needed */
     border-radius: 50%;
