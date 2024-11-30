@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <nav class="site-nav">
-            <div class="site-title"><a href="/">{{ site.title }}</a></div>
-            <div class="nav-links">
-                <a href="/about">About</a>
-                <a href="/publications">Publications</a>
-                <a href="/in-progress">In progress</a>
-                <a href="/data-code">Data & Code</a>
-                <a href="/teaching">Teaching</a>
-                <a href="/cv">CV</a>
+    <div class="container">
+        <header>
+            <nav class="site-nav">
+                <div class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+                <div class="nav-links">
+                    <a href="{{ '/about' | relative_url }}">About</a>
+                    <a href="{{ '/publications' | relative_url }}">Publications</a>
+                    <a href="{{ '/in-progress' | relative_url }}">In progress</a>
+                    <a href="{{ '/data-code' | relative_url }}">Data & Code</a>
+                    <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+                    <a href="{{ '/cv' | relative_url }}">CV</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                {{ content }}
             </div>
-        </nav>
-    </header>
-    <main>
-        {{ content }}
-    </main>
+            <div class="profile">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture" class="profile-image">
+            </div>
+        </main>
+        <footer>
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}. Made with Jekyll using the Tale theme.</p>
+        </footer>
+    </div>
 </body>
 </html>
