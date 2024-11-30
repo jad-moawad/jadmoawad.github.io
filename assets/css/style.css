@@ -108,7 +108,7 @@ h1 {
     text-align: left;
     font-size: 1.1rem;
     color: #444;
-    max-width: 65ch; /* Optimal reading width */
+    max-width: none; /* Remove the max-width constraint */
 }
 
 .text-content p {
@@ -127,10 +127,11 @@ h1 {
 
 /* Profile Image */
 .profile {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex: 0 0 320px;      /* Fixed width to match image size */
+    margin-left: 2rem;    /* Add space between text and image */
+    display: flex;        /* Creates a flex container for the image */
+    justify-content: center;     /* Centers the image horizontally */
+    align-items: flex-start;     /* Aligns the image to the top */
 }
 
 .profile-image {
@@ -154,18 +155,18 @@ h1 {
     }
 
     .main-content {
-        flex-direction: column;
-        align-items: center;
-        gap: 3rem;
+        display: block; /* Change to block layout */
     }
 
     .profile {
-        order: -1; /* Moves image to top */
+        float: right; /* Float the image to the right */
+        margin: 0 0 2rem 2rem; /* Add margin around the image */
+        max-width: 50%; /* Ensure image doesn't get too large */
     }
 
     .text-content {
-        width: 100%;
-        max-width: 600px; /* Wider on medium screens */
+        width: auto;
+        max-width: none;
     }
 
     .profile-image {
@@ -193,7 +194,9 @@ h1 {
     }
 
     .main-content {
-        gap: 2rem;
+        display: flex; /* Switch back to flex for mobile */
+        flex-direction: column;
+        align-items: center;
     }
 
     .profile-image {
@@ -201,6 +204,12 @@ h1 {
         height: 250px;
     }
 
+    .profile {
+        float: none;
+        margin: 0 0 2rem 0;
+        max-width: none;
+    }
+    
     .text-content {
         text-align: center;
     }
