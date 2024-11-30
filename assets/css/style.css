@@ -16,20 +16,20 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
-    padding: 2rem 10%;
+    padding: 2rem 7.5%;
 }
 
 @media (max-width: 1200px) {
     .container {
         width: 85%;
-        padding: 2rem 5%;
+        padding: 2rem 2.5%;
     }
 }
 
 @media (max-width: 768px) {
     .container {
         width: 100%;
-        padding: 1rem 5%;
+        padding: 1rem 2.5%;
     }
 }
 
