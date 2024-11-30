@@ -25,9 +25,20 @@
 
         <!-- Main Content -->
         <div class="content">
+            {% if page.url == "/" %}
             <h1>Jad <span class="highlight">Moa</span>wad</h1>
+            {% else %}
+            <h1><span class="highlight">{{ page.title }}</span></h1>
+            {% endif %}
             <div class="main-content">
-                {{ content }}
+                <div class="text-content">
+                    {{ content }}
+                </div>
+                {% if page.layout == 'about' %}
+                <div class="profile">
+                    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture of Jad Moawad" class="profile-image">
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Research"
+layout: default
+title: Research
 ---
 
 ### Peer-reviewed
