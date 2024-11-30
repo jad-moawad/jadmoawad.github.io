@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jad Mowad</title>
+    <title>Jad Moawad</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     <div class="container">
+        <!-- Header Section -->
         <header class="site-header">
             <div class="site-title">
-                <a href="{{ '/' | relative_url }}">Jad Mowad</a>
-                <div class="black-bar"></div>
+                <a href="{{ '/' | relative_url }}">Jad Moawad</a>
+                <div class="black-bar-header"></div>
             </div>
-            <nav class="nav-links">
-                <a href="{{ '/about' | relative_url }}">About</a>
-                <a href="{{ '/publications' | relative_url }}">Publications</a>
-                <a href="{{ '/in-progress' | relative_url }}">In Progress</a>
-                <a href="{{ '/data-code' | relative_url }}">Data & Code</a>
-                <a href="{{ '/teaching' | relative_url }}">Teaching</a>
-                <a href="{{ '/cv' | relative_url }}">CV</a>
-            </nav>
         </header>
 
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+            <a href="{{ '/about' | relative_url }}">About</a>
+            <a href="{{ '/publications' | relative_url }}">Publications</a>
+            <a href="{{ '/in-progress' | relative_url }}">In Progress</a>
+            <a href="{{ '/data-code' | relative_url }}">Data & Code</a>
+            <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+            <a href="{{ '/cv' | relative_url }}">CV</a>
+        </nav>
+
+        <!-- Main Content -->
         <div class="content">
-            <h1>Jad <span class="highlight">Mow</span>ad</h1>
+            <h1>Jad <span class="highlight">Moa</span>wad</h1>
             <div class="main-content">
                 <div class="text-content">
                     {{ content }}
                 </div>
                 <div class="profile">
-                    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture of Jad Mowad" class="profile-image">
+                    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture of Jad Moawad" class="profile-image">
                 </div>
             </div>
         </div>
