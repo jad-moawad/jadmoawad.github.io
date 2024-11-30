@@ -146,8 +146,8 @@ h1 {
     transform: scale(1.02);
 }
 
-/* Responsive Design */
-/* Responsive Design */
+/* Responsive Design /
+/ Responsive Design */
 @media (max-width: 1200px) {
     .container {
         width: 90%;
