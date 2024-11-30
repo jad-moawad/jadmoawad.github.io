@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>Per Engzell</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header class="site-header">
-        <div class="site-title">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        </div>
-        <nav class="nav-links">
-            <a href="{{ '/about' | relative_url }}">About</a>
-            <a href="{{ '/publications' | relative_url }}">Publications</a>
-            <a href="{{ '/in-progress' | relative_url }}">In progress</a>
-            <a href="{{ '/data-code' | relative_url }}">Data & Code</a>
-            <a href="{{ '/teaching' | relative_url }}">Teaching</a>
-            <a href="{{ '/cv' | relative_url }}">CV</a>
-        </nav>
-    </header>
-
-    <div class="content">
-        <h1>{{ site.title }}</h1>
-        <div class="main-content">
-            <div class="text-content">
-                {{ content }}
+    <div class="container">
+        <header class="site-header">
+            <div class="site-title">
+                <a href="{{ '/' | relative_url }}">Per Engzell</a>
+                <div class="black-bar"></div>
             </div>
-            <div class="profile">
-                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture" class="profile-image">
+            <nav class="nav-links">
+                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ '/publications' | relative_url }}">Publications</a>
+                <a href="{{ '/in-progress' | relative_url }}">In Progress</a>
+                <a href="{{ '/data-code' | relative_url }}">Data & Code</a>
+                <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+                <a href="{{ '/cv' | relative_url }}">CV</a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>Per <span class="highlight">Eng</span>zell</h1>
+            <div class="main-content">
+                <div class="text-content">
+                    {{ content }}
+                </div>
+                <div class="profile">
+                    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture" class="profile-image">
+                </div>
             </div>
         </div>
     </div>
