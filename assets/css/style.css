@@ -136,22 +136,23 @@ h1 {
 }
 
 /* Profile Image */
+/* Profile Image */
 .profile {
     flex: 0 0 auto;          /* Prevents stretching */
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 3rem;      /* More space from text */
+    padding-left: 3rem;      /* Space from text */
 }
 
 .profile-image {
-    width: 400px;            /* Larger width */
-    height: 400px;           /* Equal height for perfect circle */
-    border-radius: 50%;      /* Perfect circle */
+    width: 350px;            /* Reduced from 400px for a slightly smaller size */
+    height: 350px;           /* Keeping width and height equal for perfect circle */
+    border-radius: 50%;      /* Maintains the circular shape */
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    margin-top: -2rem;       /* Pull it up slightly */
+    margin-top: -2rem;       /* Keeps the image slightly elevated */
 }
 
 .profile-image:hover {
@@ -161,8 +162,8 @@ h1 {
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
     .profile-image {
-        width: 350px;
-        height: 350px;
+        width: 300px;        /* Scaled down proportionally */
+        height: 300px;
     }
 }
 
@@ -190,8 +191,8 @@ h1 {
     }
 
     .profile-image {
-        width: 300px;
-        height: 300px;
-        margin-top: 1rem;    /* Adjust spacing for mobile */
+        width: 250px;        /* Even smaller for mobile screens */
+        height: 250px;
+        margin-top: 1rem;
     }
 }
