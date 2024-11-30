@@ -13,23 +13,24 @@ body {
 }
 
 /* Container for Consistent Margins */
+/* Container for Consistent Margins */
 .container {
-    width: 70%;
+    width: 80%;         /* Increased from 70% to 80% */
     margin: 0 auto;
-    padding: 2rem 7.5%;
+    padding: 2rem 15%;  /* Reduced from 20% to 15% to make content wider */
 }
 
 @media (max-width: 1200px) {
     .container {
-        width: 85%;
-        padding: 2rem 2.5%;
+        width: 90%;     /* Increased from 85% to 90% */
+        padding: 2rem 7.5%;  /* Reduced from 10% to 7.5% */
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        width: 100%;
-        padding: 1rem 2.5%;
+        width: 100%;    /* Keeping this the same for mobile */
+        padding: 1rem 5%;  /* Keeping this the same for mobile */
     }
 }
 
