@@ -1,11 +1,11 @@
 ---
 layout: default
-title: About
+title: Jad Moawad
 permalink: /about/
 ---
 
 
-I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.spi.ox.ac.uk/) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk/), University of Oxford.
+I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.inet.ox.ac.uk/people/jad-moawad) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk/), University of Oxford.
 
 My main research interests lie at the intersection of social stratification and life course inequalities.
 
