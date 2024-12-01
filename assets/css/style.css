@@ -224,3 +224,56 @@ h1 {
         height: 220px;
     }
 }
+
+
+/* Teaching Page Styles */
+.teaching-section {
+    margin: 2rem 0;
+}
+
+.teaching-role {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 1.5rem 0 1rem 0;
+    font-weight: 600;
+}
+
+.courses-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    background: #f7fafc;
+    padding: 1rem 1.5rem;
+    margin: 0.75rem 0;
+    border-radius: 8px;
+    border-left: 4px solid #0366d6;
+    transition: transform 0.2s ease;
+}
+
+.course-item:hover {
+    transform: translateX(10px);
+    background: #edf2f7;
+}
+
+.course-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.course-date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+/* Update existing h2 styles for teaching page */
+.text-content h2 {
+    color: #333;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    border-left: 4px solid #0366d6;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
