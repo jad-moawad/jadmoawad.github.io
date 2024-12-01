@@ -336,3 +336,12 @@ h1 {
     color: #0366d6;
     font-size: 0.9rem;
 }
+
+.publication-journal {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.publication-journal:hover {
+    text-decoration: underline;
+}

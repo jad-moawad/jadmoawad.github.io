@@ -71,11 +71,17 @@ permalink: /research/
     <div class="publication-list">
       <div class="publication-item">
         <div class="publication-title">Les classes moyennes, partout prétendues victimes, s'en sortent mieux que les classes laborieuses</div>
-        <div class="publication-meta">Le Monde. 2023.</div>
-        <div class="publication-links">
-          <a href="https://www.lemonde.fr/idees/article/2023/06/21/les-classes-moyennes-partout-pretendues-victimes-s-en-sortent-mieux-que-les-classes-laborieuses_6178624_3232.html">Link</a>
+        <div class="publication-meta">
+          <a href="https://www.lemonde.fr/idees/article/2023/06/21/les-classes-moyennes-partout-pretendues-victimes-s-en-sortent-mieux-que-les-classes-laborieuses_6178624_3232.html" class="publication-journal">Le Monde</a>. 2023.
+        </div>
+      </div>
+
+      <div class="publication-item">
+        <div class="publication-title">This is what a middle-class budget in Chicago looks like compared to Madrid, Spain</div>
+        <div class="publication-meta">
+          <a href="https://www.fastcompany.com/91090323/how-middle-class-incomes-look-different-in-america-vs-europe" class="publication-journal">Fast Company</a>. 2024.
         </div>
       </div>
     </div>
-  </div>
 </div>
+
