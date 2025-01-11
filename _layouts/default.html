@@ -34,7 +34,12 @@
             {% if page.url == "/" or page.url == "/about/" %}
             <div class="main-content">
                 <div class="text-content">
-                    {{ content }}
+                    {% assign content_parts = content | split: '---' %}
+                    {% if content_parts.size > 2 %}
+                        {{ content_parts[2] }}
+                    {% else %}
+                        {{ content }}
+                    {% endif %}
                 </div>
                 <div class="profile">
                     <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile picture of Jad Moawad" class="profile-image">
