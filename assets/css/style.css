@@ -371,8 +371,8 @@ h1 {
 }
 
 .cv-nav-link.active {
-  background-color: #f0f0ff;
-  border-left: 4px solid #7b1fa2;
+  background-color: #f0f7ff;
+  border-left: 4px solid #0366d6;
   font-weight: 600;
 }
 
@@ -391,15 +391,9 @@ h1 {
 
 .cv-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-}
-
-.cv-header h2 {
-  margin: 0;
-  margin-right: auto;
-  border-bottom: none;
-  padding-bottom: 0;
 }
 
 .pdf-icon {
@@ -418,7 +412,7 @@ h1 {
   margin-bottom: 1rem;
   color: #333;
   padding-bottom: 0.25rem;
-  border-bottom: 3px solid #7b1fa2;
+  border-bottom: 3px solid #0366d6;
   display: inline-block;
 }
 
@@ -426,20 +420,22 @@ h1 {
   padding-left: 0.5rem;
 }
 
-/* Basics Table */
-.cv-basics-table {
-  width: 100%;
-  border-collapse: collapse;
+/* Basics grid layout */
+.cv-basics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
-.cv-basics-table tr {
-  border-bottom: 1px solid #f0f0f0;
+.cv-basics-item {
+  display: flex;
+  align-items: center;
 }
 
 .cv-label {
   font-weight: 600;
-  width: 100px;
-  padding: 0.5rem 1rem 0.5rem 0;
+  min-width: 80px;
+  padding-right: 1rem;
   vertical-align: top;
 }
 
@@ -448,7 +444,7 @@ h1 {
 }
 
 .cv-value a {
-  color: #7b1fa2;
+  color: #0366d6;
   text-decoration: none;
 }
 
@@ -464,7 +460,7 @@ h1 {
 }
 
 .cv-date-badge {
-  background-color: #7b1fa2;
+  background-color: #0366d6;
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
@@ -472,6 +468,13 @@ h1 {
   width: 120px;
   text-align: center;
   flex-shrink: 0;
+}
+
+/* New inline education layout */
+.cv-edu-inline {
+  margin-left: 1rem;
+  padding: 0.25rem 0;
+  line-height: 1.4;
 }
 
 .cv-edu-details, .cv-work-details {
@@ -555,7 +558,7 @@ h1 {
 }
 
 .lang-dot.filled {
-  background-color: #7b1fa2;
+  background-color: #0366d6;
 }
 
 /* Responsive Styles */
@@ -589,8 +592,12 @@ h1 {
     margin-bottom: 0.5rem;
   }
   
-  .cv-edu-details, .cv-work-details {
+  .cv-edu-details, .cv-work-details, .cv-edu-inline {
     margin-left: 0;
     padding-left: 0;
+  }
+  
+  .cv-basics-grid {
+    grid-template-columns: 1fr;
   }
 }
