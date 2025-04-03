@@ -19,6 +19,7 @@
         <!-- Navigation Links -->
         <nav class="nav-links">
             <a href="{{ '/about' | relative_url }}">About</a>
+            <a href="{{ '/cv' | relative_url }}">CV</a>
             <a href="{{ '/research' | relative_url }}">Research</a>
             <a href="{{ '/teaching' | relative_url }}">Teaching</a>
         </nav>
@@ -31,7 +32,9 @@
             <h1><span class="highlight">{{ page.title }}</span></h1>
             {% endif %}
             
-            {% if page.url == "/" or page.url == "/about/" %}
+            {% if page.url == "/cv/" %}
+                {{ content }}
+            {% elsif page.url == "/" or page.url == "/about/" %}
             <div class="main-content">
                 <div class="text-content">
                     {{ content }}
