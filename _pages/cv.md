@@ -22,9 +22,8 @@ permalink: /cv/
     <h1 class="cv-main-title">CV</h1>
     
     <div class="cv-header">
-      <h2>CV</h2>
       <p>Feel free to download a PDF of my CV using the link on the right!</p>
-      <a href="#" class="cv-pdf-download">
+      <a href="/assets/files/JadMoawadCV.pdf" class="cv-pdf-download" download>
         <img src="{{ '/assets/images/pdf-icon.png' | relative_url }}" alt="PDF Icon" class="pdf-icon">
       </a>
     </div>
@@ -33,36 +32,36 @@ permalink: /cv/
     <div id="basics" class="cv-section">
       <h2 class="section-title">Basics</h2>
       <div class="cv-section-content">
-        <table class="cv-basics-table">
-          <tr>
-            <td class="cv-label">Name</td>
-            <td class="cv-value">Jad Moawad</td>
-          </tr>
-          <tr>
-            <td class="cv-label">Position</td>
-            <td class="cv-value">Data Scientist</td>
-          </tr>
-          <tr>
-            <td class="cv-label">Email</td>
-            <td class="cv-value"><a href="mailto:moawad.jad@gmail.com">moawad.jad@gmail.com</a></td>
-          </tr>
-          <tr>
-            <td class="cv-label">Phone</td>
-            <td class="cv-value">(437) 575-2116</td>
-          </tr>
-          <tr>
-            <td class="cv-label">Location</td>
-            <td class="cv-value">Toronto, Canada</td>
-          </tr>
-          <tr>
-            <td class="cv-label">LinkedIn</td>
-            <td class="cv-value"><a href="https://www.linkedin.com/in/jadmoawad">LinkedIn</a></td>
-          </tr>
-          <tr>
-            <td class="cv-label">GitHub</td>
-            <td class="cv-value"><a href="https://github.com/jadmoawad">GitHub</a></td>
-          </tr>
-        </table>
+        <div class="cv-basics-grid">
+          <div class="cv-basics-item">
+            <span class="cv-label">Name</span>
+            <span class="cv-value">Jad Moawad</span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">Position</span>
+            <span class="cv-value">Data Scientist</span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">Email</span>
+            <span class="cv-value"><a href="mailto:moawad.jad@gmail.com">moawad.jad@gmail.com</a></span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">Phone</span>
+            <span class="cv-value">(437) 575-2116</span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">Location</span>
+            <span class="cv-value">Toronto, Canada</span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">LinkedIn</span>
+            <span class="cv-value"><a href="https://www.linkedin.com/in/jadmoawad">LinkedIn</a></span>
+          </div>
+          <div class="cv-basics-item">
+            <span class="cv-label">GitHub</span>
+            <span class="cv-value"><a href="https://github.com/jadmoawad">GitHub</a></span>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -72,46 +71,36 @@ permalink: /cv/
       <div class="cv-section-content">
         <div class="cv-edu-item">
           <div class="cv-date-badge">2023-2024</div>
-          <div class="cv-edu-details">
-            <h3>Master of Science in Data Science</h3>
-            <div class="cv-edu-place">University of Texas at Austin</div>
-            <div class="cv-edu-location">Austin, U.S.A.</div>
+          <div class="cv-edu-inline">
+            <strong>Master of Science in Data Science</strong>, University of Texas at Austin, U.S.A.
           </div>
         </div>
         
         <div class="cv-edu-item">
           <div class="cv-date-badge">2018-2023</div>
-          <div class="cv-edu-details">
-            <h3>PhD in Social Sciences</h3>
-            <div class="cv-edu-place">University of Lausanne</div>
-            <div class="cv-edu-location">Lausanne, Switzerland</div>
+          <div class="cv-edu-inline">
+            <strong>PhD in Social Sciences</strong>, University of Lausanne, Switzerland
           </div>
         </div>
         
         <div class="cv-edu-item">
           <div class="cv-date-badge">2017-2018</div>
-          <div class="cv-edu-details">
-            <h3>Master in Sociology and Demography</h3>
-            <div class="cv-edu-place">Pompeu Fabra University</div>
-            <div class="cv-edu-location">Barcelona, Spain</div>
+          <div class="cv-edu-inline">
+            <strong>Master in Sociology and Demography</strong>, Pompeu Fabra University, Barcelona, Spain
           </div>
         </div>
         
         <div class="cv-edu-item">
           <div class="cv-date-badge">2016-2017</div>
-          <div class="cv-edu-details">
-            <h3>Master in Political Philosophy</h3>
-            <div class="cv-edu-place">Pompeu Fabra University</div>
-            <div class="cv-edu-location">Barcelona, Spain</div>
+          <div class="cv-edu-inline">
+            <strong>Master in Political Philosophy</strong>, Pompeu Fabra University, Barcelona, Spain
           </div>
         </div>
         
         <div class="cv-edu-item">
           <div class="cv-date-badge">2010-2013</div>
-          <div class="cv-edu-details">
-            <h3>Bachelor in Business Administration, emphasis in Financial Engineering</h3>
-            <div class="cv-edu-place">Notre Dame University</div>
-            <div class="cv-edu-location">Zouk Mosbeh, Lebanon</div>
+          <div class="cv-edu-inline">
+            <strong>Bachelor in Business Administration, emphasis in Financial Engineering</strong>, Notre Dame University, Zouk Mosbeh, Lebanon
           </div>
         </div>
       </div>
