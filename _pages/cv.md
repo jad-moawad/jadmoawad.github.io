@@ -70,7 +70,7 @@ permalink: /cv/
         <div class="cv-work-item">
           <div class="cv-date-badge">2023-PRESENT</div>
           <div class="cv-work-inline">
-            <strong>Postdoctoral Researcher</strong>, University of Oxford, Oxford, United Kingdom
+            <strong>Postdoctoral Researcher</strong>, Institute of New Economic Thinking, University of Oxford, Oxford, United Kingdom
           </div>
           <ul class="cv-bullet-list">
             <li>Led quantitative analyses on savings and investing behaviors across Europe and the US, uncovering key patterns that informed policy recommendations.</li>
