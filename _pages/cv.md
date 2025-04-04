@@ -19,14 +19,12 @@ permalink: /cv/
 
   <!-- CV Content -->
   <div class="cv-content">
-    <h1 class="cv-main-title">CV</h1>
-    
-    <div class="cv-header">
-      <p>Feel free to download a PDF of my CV using the link on the right!</p>
-      <a href="/assets/files/JadMoawadCV.pdf" class="cv-pdf-download" download>
-        <img src="{{ '/assets/images/pdf-icon.png' | relative_url }}" alt="PDF Icon" class="pdf-icon">
-      </a>
-    </div>
+  <div class="cv-header">
+    <p>Download CV from here</p>
+    <a href="/assets/files/JadMoawadCV.pdf" class="cv-pdf-download" download>
+      <img src="{{ '/assets/images/pdf-icon.png' | relative_url }}" alt="PDF Icon" class="pdf-icon">
+    </a>
+  </div>
 
     <!-- Basics Section -->
     <div id="basics" class="cv-section">
