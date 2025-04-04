@@ -619,3 +619,19 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.download-link-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.download-link-container span {
+  margin-right: 10px;
+}
+
+.download-link-container .pdf-icon {
+  width: 28px;
+  height: auto;
+  vertical-align: middle;
+}
