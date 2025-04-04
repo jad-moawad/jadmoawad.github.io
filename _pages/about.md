@@ -4,12 +4,8 @@ title: Jad Moawad
 permalink: /about/
 ---
 
-I am a postdoctoral researcher at the [Department of Social Policy and Intervention](https://www.inet.ox.ac.uk/people/jad-moawad) and associate member at [Nuffield College](https://www.nuffield.ox.ac.uk/), University of Oxford.
+I translate complex data into actionable insights that inform strategic decisions and address real-world challenges. My experience spans quantitative research, machine learning, and experimental design, honed at institutions such as the [University of Oxford](https://www.inet.ox.ac.uk/people/jad-moawad) and the European Commission. This background allows me to offer a precise blend of analytical rigor and practical solutions. 
 
-My main research interests lie at the intersection of social stratification and life course inequalities.
+Proficient in Python, R, SQL, advanced statistical modeling, data pipelines, and visualization platforms (Tableau, Power BI), I excel at leveraging diverse data sets to deliver meaningful insights. From designing experiments and building predictive algorithms to crafting compelling data narratives, I consistently contribute effective strategies aimed at operational excellence and sustainable growth.
 
-I am the principal investigator of the SNSF grant on the determinants of saving and consumption behavior. My research focuses on analyzing these outcomes in Europe and the United States. In addition, I am designing a randomized experiment to examine whether financial literacy interventions can improve people's saving and investment decisions.
-
-Previously, I received my Ph.D. in Social Sciences from the University of Lausanne, where I studied the aftermath of the 2008 financial crisis. My research shed light on its far-reaching effects on various social dimensions, particularly income and health inequalities.
-
-I have worked with several large-scale cross-sectional and longitudinal surveys such as the European Union Statistics on Income and Living Conditions (EU-SILC), the European Social Survey (ESS), the Household Finance and Consumption Survey (HFCS), and the Luxembourg Income Study (LIS).
+Currently based in Toronto, Canada, I hold Permanent Residence status and am actively exploring opportunities to bring my expertise and passion for data-driven decision-making to new teams and challenges. Please feel free to review my portfolio, and let’s discuss how I can add value to your organization.
