@@ -9,8 +9,8 @@ permalink: /cv/
   <div class="cv-nav">
     <ul>
       <li><a href="#basics" class="cv-nav-link active">Basics</a></li>
-      <li><a href="#education" class="cv-nav-link">Education</a></li>
       <li><a href="#experience" class="cv-nav-link">Experience</a></li>
+      <li><a href="#education" class="cv-nav-link">Education</a></li>
       <li><a href="#skills" class="cv-nav-link">Skills</a></li>
       <li><a href="#programming" class="cv-nav-link">Programming & Software</a></li>
       <li><a href="#languages" class="cv-nav-link">Languages</a></li>
@@ -58,47 +58,6 @@ permalink: /cv/
           <div class="cv-basics-item">
             <span class="cv-label">GitHub</span>
             <span class="cv-value"><a href="https://github.com/jad-moawad">GitHub</a></span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Education Section -->
-    <div id="education" class="cv-section">
-      <h2 class="section-title">Education</h2>
-      <div class="cv-section-content">
-        <div class="cv-edu-item">
-          <div class="cv-date-badge">2023-2024</div>
-          <div class="cv-edu-inline">
-            <strong>Master of Science in Data Science</strong>, University of Texas at Austin, U.S.A.
-          </div>
-        </div>
-        
-        <div class="cv-edu-item">
-          <div class="cv-date-badge">2018-2023</div>
-          <div class="cv-edu-inline">
-            <strong>PhD in Social Sciences</strong>, University of Lausanne, Switzerland
-          </div>
-        </div>
-        
-        <div class="cv-edu-item">
-          <div class="cv-date-badge">2017-2018</div>
-          <div class="cv-edu-inline">
-            <strong>Master in Sociology and Demography</strong>, Pompeu Fabra University, Barcelona, Spain
-          </div>
-        </div>
-        
-        <div class="cv-edu-item">
-          <div class="cv-date-badge">2016-2017</div>
-          <div class="cv-edu-inline">
-            <strong>Master in Political Philosophy</strong>, Pompeu Fabra University, Barcelona, Spain
-          </div>
-        </div>
-        
-        <div class="cv-edu-item">
-          <div class="cv-date-badge">2010-2013</div>
-          <div class="cv-edu-inline">
-            <strong>Bachelor in Business Administration, emphasis in Financial Engineering</strong>, Notre Dame University, Zouk Mosbeh, Lebanon
           </div>
         </div>
       </div>
@@ -173,6 +132,49 @@ permalink: /cv/
       </div>
     </div>
 
+
+    <!-- Education Section -->
+    <div id="education" class="cv-section">
+      <h2 class="section-title">Education</h2>
+      <div class="cv-section-content">
+        <div class="cv-edu-item">
+          <div class="cv-date-badge">2023-2024</div>
+          <div class="cv-edu-inline">
+            <strong>Master of Science in Data Science</strong>, University of Texas at Austin, U.S.A.
+          </div>
+        </div>
+        
+        <div class="cv-edu-item">
+          <div class="cv-date-badge">2018-2023</div>
+          <div class="cv-edu-inline">
+            <strong>PhD in Social Sciences</strong>, University of Lausanne, Switzerland
+          </div>
+        </div>
+        
+        <div class="cv-edu-item">
+          <div class="cv-date-badge">2017-2018</div>
+          <div class="cv-edu-inline">
+            <strong>Master in Sociology and Demography</strong>, Pompeu Fabra University, Barcelona, Spain
+          </div>
+        </div>
+        
+        <div class="cv-edu-item">
+          <div class="cv-date-badge">2016-2017</div>
+          <div class="cv-edu-inline">
+            <strong>Master in Political Philosophy</strong>, Pompeu Fabra University, Barcelona, Spain
+          </div>
+        </div>
+        
+        <div class="cv-edu-item">
+          <div class="cv-date-badge">2010-2013</div>
+          <div class="cv-edu-inline">
+            <strong>Bachelor in Business Administration, emphasis in Financial Engineering</strong>, Notre Dame University, Zouk Mosbeh, Lebanon
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
     <!-- Programming & Software Section -->
     <div id="programming" class="cv-section">
       <h2 class="section-title">Programming & Software</h2>
