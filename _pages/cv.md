@@ -53,11 +53,11 @@ permalink: /cv/
           </div>
           <div class="cv-basics-item">
             <span class="cv-label">LinkedIn</span>
-            <span class="cv-value"><a href="[https://www.linkedin.com/in/jadmoawad](https://www.linkedin.com/in/jad-moawad-a79730164/)">LinkedIn</a></span>
+            <span class="cv-value"><a href="https://www.linkedin.com/in/jad-moawad-a79730164/">LinkedIn</a></span>
           </div>
           <div class="cv-basics-item">
             <span class="cv-label">GitHub</span>
-            <span class="cv-value"><a href="[https://github.com/jadmoawad](https://github.com/jad-moawad)">GitHub</a></span>
+            <span class="cv-value"><a href="https://github.com/jad-moawad">GitHub</a></span>
           </div>
         </div>
       </div>
