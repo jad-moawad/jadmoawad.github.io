@@ -36,8 +36,8 @@ permalink: /cv/
             <span class="cv-value">Jad Moawad</span>
           </div>
           <div class="cv-basics-item">
-            <span class="cv-label">Position</span>
-            <span class="cv-value">Data Scientist</span>
+            <span class="cv-label">Residence Status</span>
+            <span class="cv-value">Permanent Resident in Canada </span>
           </div>
           <div class="cv-basics-item">
             <span class="cv-label">Email</span>
@@ -53,11 +53,11 @@ permalink: /cv/
           </div>
           <div class="cv-basics-item">
             <span class="cv-label">LinkedIn</span>
-            <span class="cv-value"><a href="https://www.linkedin.com/in/jadmoawad">LinkedIn</a></span>
+            <span class="cv-value"><a href="[https://www.linkedin.com/in/jadmoawad](https://www.linkedin.com/in/jad-moawad-a79730164/)">LinkedIn</a></span>
           </div>
           <div class="cv-basics-item">
             <span class="cv-label">GitHub</span>
-            <span class="cv-value"><a href="https://github.com/jadmoawad">GitHub</a></span>
+            <span class="cv-value"><a href="[https://github.com/jadmoawad](https://github.com/jad-moawad)">GitHub</a></span>
           </div>
         </div>
       </div>
