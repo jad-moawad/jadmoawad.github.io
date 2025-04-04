@@ -475,6 +475,20 @@ h1 {
   margin-left: 1rem;
   padding: 0.25rem 0;
   line-height: 1.4;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+/* New inline work experience layout */
+.cv-work-inline {
+  margin-left: 1rem;
+  padding: 0.25rem 0;
+  line-height: 1.4;
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .cv-edu-details, .cv-work-details {
@@ -502,17 +516,21 @@ h1 {
   font-style: italic;
   color: #777;
   margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  text-align: left;
 }
 
 /* Bullet Lists */
 .cv-bullet-list {
   padding-left: 1.25rem;
-  margin: 0.5rem 0 0 0;
+  margin: 0.5rem 0 0 1rem;
+  text-align: left;
 }
 
 .cv-bullet-list li {
   margin-bottom: 0.4rem;
   line-height: 1.4;
+  text-align: left;
 }
 
 /* Skills Grid */
@@ -592,7 +610,7 @@ h1 {
     margin-bottom: 0.5rem;
   }
   
-  .cv-edu-details, .cv-work-details, .cv-edu-inline {
+  .cv-edu-details, .cv-work-details, .cv-edu-inline, .cv-work-inline, .cv-work-note, .cv-bullet-list {
     margin-left: 0;
     padding-left: 0;
   }
