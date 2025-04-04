@@ -112,76 +112,66 @@ permalink: /cv/
       <div class="cv-section-content">
         <div class="cv-work-item">
           <div class="cv-date-badge">2023-PRESENT</div>
-          <div class="cv-work-details">
-            <h3>Postdoctoral Researcher</h3>
-            <div class="cv-work-place">University of Oxford</div>
-            <div class="cv-work-location">Oxford, United Kingdom</div>
-            <ul class="cv-bullet-list">
-              <li>Led quantitative analyses on savings and investing behaviors across Europe and the US, uncovering key patterns that informed policy recommendations.</li>
-              <li>Designed and conducted randomised controlled trials to assess the impact of financial education interventions on investment behaviour. Treatment led to an 18 percentage point improvement in participants' final decision outcomes.</li>
-              <li>Developed comprehensive survey instruments using Qualtrics, resulting in 15% higher completion rates and improved data quality.</li>
-              <li>Managed complex pipelines, integrating, cleaning, and transforming data from diverse sources for cross-national comparative analyses.</li>
-            </ul>
+          <div class="cv-work-inline">
+            <strong>Postdoctoral Researcher</strong>, University of Oxford, Oxford, United Kingdom
           </div>
+          <ul class="cv-bullet-list">
+            <li>Led quantitative analyses on savings and investing behaviors across Europe and the US, uncovering key patterns that informed policy recommendations.</li>
+            <li>Designed and conducted randomised controlled trials to assess the impact of financial education interventions on investment behaviour. Treatment led to an 18 percentage point improvement in participants' final decision outcomes.</li>
+            <li>Developed comprehensive survey instruments using Qualtrics, resulting in 15% higher completion rates and improved data quality.</li>
+            <li>Managed complex pipelines, integrating, cleaning, and transforming data from diverse sources for cross-national comparative analyses.</li>
+          </ul>
         </div>
         
         <div class="cv-work-item">
           <div class="cv-date-badge">2022-2023</div>
-          <div class="cv-work-details">
-            <h3>Expert Researcher</h3>
-            <div class="cv-work-place">European Commission</div>
-            <div class="cv-work-location">Seville, Spain</div>
-            <ul class="cv-bullet-list">
-              <li>Analyzed microdata from 12 countries to identify critical trends in income and employment from 1980 to 2020.</li>
-              <li>Created policy briefings that directly informed EU-level economic initiatives, receiving commendation for clarity and actionable insights.</li>
-              <li>Developed interactive dashboards that enabled policymakers to explore complex socioeconomic data, leading to more targeted intervention strategies.</li>
-            </ul>
+          <div class="cv-work-inline">
+            <strong>Expert Researcher</strong>, European Commission, Seville, Spain
           </div>
+          <ul class="cv-bullet-list">
+            <li>Analyzed microdata from 12 countries to identify critical trends in income and employment from 1980 to 2020.</li>
+            <li>Created policy briefings that directly informed EU-level economic initiatives, receiving commendation for clarity and actionable insights.</li>
+            <li>Developed interactive dashboards that enabled policymakers to explore complex socioeconomic data, leading to more targeted intervention strategies.</li>
+          </ul>
         </div>
         
         <div class="cv-work-item">
           <div class="cv-date-badge">2018-2023</div>
-          <div class="cv-work-details">
-            <h3>Ph.D Researcher</h3>
-            <div class="cv-work-place">University of Lausanne</div>
-            <div class="cv-work-location">Lausanne, Switzerland</div>
-            <ul class="cv-bullet-list">
-              <li>Applied machine learning, multilevel modeling and causal inference methods to identify previously unrecognized patterns in socioeconomic data across 26+ countries.</li>
-              <li>Designed and executed rigorous data harmonization protocols for large-scale, longitudinal, cross-national datasets comprising millions of observations.</li>
-              <li>Created reproducible research workflows in R, enabling other researchers to build upon findings and ensuring analytical transparency.</li>
-              <li>Published 3 peer-reviewed articles in high-impact journals, demonstrating strong analytical capabilities and research expertise.</li>
-              <li>Presented research findings at 11 international conferences, effectively communicating complex statistical concepts to diverse audiences.</li>
-            </ul>
+          <div class="cv-work-inline">
+            <strong>Ph.D Researcher</strong>, University of Lausanne, Lausanne, Switzerland
           </div>
+          <ul class="cv-bullet-list">
+            <li>Applied machine learning, multilevel modeling and causal inference methods to identify previously unrecognized patterns in socioeconomic data across 26+ countries.</li>
+            <li>Designed and executed rigorous data harmonization protocols for large-scale, longitudinal, cross-national datasets comprising millions of observations.</li>
+            <li>Created reproducible research workflows in R, enabling other researchers to build upon findings and ensuring analytical transparency.</li>
+            <li>Published 3 peer-reviewed articles in high-impact journals, demonstrating strong analytical capabilities and research expertise.</li>
+            <li>Presented research findings at 11 international conferences, effectively communicating complex statistical concepts to diverse audiences.</li>
+          </ul>
         </div>
         
         <div class="cv-work-item">
           <div class="cv-date-badge">2018-2023</div>
-          <div class="cv-work-details">
-            <h3>Teaching Assistant</h3>
-            <div class="cv-work-place">University of Lausanne</div>
-            <div class="cv-work-location">Lausanne, Switzerland</div>
-            <ul class="cv-bullet-list">
-              <li>Taught data analysis techniques to undergraduate and graduate students using R, covering advanced methods, missing data handling, and text analysis; consistently earned 90%+ satisfaction ratings in teaching evaluations.</li>
-              <li>Provided individualized guidance on data cleaning, analysis, and visualization to 100+ students, enabling successful completion of research projects.</li>
-            </ul>
+          <div class="cv-work-inline">
+            <strong>Teaching Assistant</strong>, University of Lausanne, Lausanne, Switzerland
           </div>
+          <ul class="cv-bullet-list">
+            <li>Taught data analysis techniques to undergraduate and graduate students using R, covering advanced methods, missing data handling, and text analysis; consistently earned 90%+ satisfaction ratings in teaching evaluations.</li>
+            <li>Provided individualized guidance on data cleaning, analysis, and visualization to 100+ students, enabling successful completion of research projects.</li>
+          </ul>
         </div>
         
         <div class="cv-work-item">
           <div class="cv-date-badge">2014-2016</div>
-          <div class="cv-work-details">
-            <h3>Business Intelligence Analyst</h3>
-            <div class="cv-work-place">Lebanese Grand Laundry</div>
-            <div class="cv-work-location">Beirut, Lebanon</div>
-            <div class="cv-work-note">LGL is the second largest industrial laundry in Lebanon</div>
-            <ul class="cv-bullet-list">
-              <li>Developed interactive KPI dashboards in Tableau that improved production throughput by 7%, resulting in an additional 400 pounds of processed laundry per shift.</li>
-              <li>Built predictive forecasting models that enhanced demand prediction accuracy by 12%, optimizing resource allocation and workforce scheduling.</li>
-              <li>Collaborated with operations teams to translate data insights into process improvements, eliminating key bottlenecks in the production workflow.</li>
-              <li>Designed strategic Tableau dashboards that transformed complex data into clear visual insights, directly supporting executive decision-making and organizational planning.</li>
-            </ul>
+          <div class="cv-work-inline">
+            <strong>Business Intelligence Analyst</strong>, Lebanese Grand Laundry, Beirut, Lebanon
           </div>
+          <div class="cv-work-note">LGL is the second largest industrial laundry in Lebanon</div>
+          <ul class="cv-bullet-list">
+            <li>Developed interactive KPI dashboards in Tableau that improved production throughput by 7%, resulting in an additional 400 pounds of processed laundry per shift.</li>
+            <li>Built predictive forecasting models that enhanced demand prediction accuracy by 12%, optimizing resource allocation and workforce scheduling.</li>
+            <li>Collaborated with operations teams to translate data insights into process improvements, eliminating key bottlenecks in the production workflow.</li>
+            <li>Designed strategic Tableau dashboards that transformed complex data into clear visual insights, directly supporting executive decision-making and organizational planning.</li>
+          </ul>
         </div>
       </div>
     </div>
