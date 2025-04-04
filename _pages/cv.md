@@ -163,7 +163,6 @@ permalink: /cv/
           <div class="cv-work-inline">
             <strong>Business Intelligence Analyst</strong>, Lebanese Grand Laundry, Beirut, Lebanon
           </div>
-          <div class="cv-work-note">LGL is the second largest industrial laundry in Lebanon</div>
           <ul class="cv-bullet-list">
             <li>Developed interactive KPI dashboards in Tableau that improved production throughput by 7%, resulting in an additional 400 pounds of processed laundry per shift.</li>
             <li>Built predictive forecasting models that enhanced demand prediction accuracy by 12%, optimizing resource allocation and workforce scheduling.</li>
