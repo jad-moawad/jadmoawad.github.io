@@ -149,7 +149,7 @@ permalink: /cv/
           <div class="cv-date-badge">2018-2023</div>
           <div class="cv-edu-inline">
             <strong>PhD in Social Sciences</strong>, University of Lausanne, Switzerland
-              <span class="cv-gpa">GPA: No grade per university policy</span>
+              <span class="cv-gpa">No grade per university policy</span>
           </div>
         </div>
         
@@ -157,7 +157,7 @@ permalink: /cv/
           <div class="cv-date-badge">2017-2018</div>
           <div class="cv-edu-inline">
             <strong>Master in Sociology and Demography</strong>, Pompeu Fabra University, Barcelona, Spain
-              <span class="cv-gpa">GPA: 3.45/4.0</span>
+              <span class="cv-gpa">GPA: 3.49/4.0</span>
           </div>
         </div>
         
