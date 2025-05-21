@@ -73,10 +73,11 @@ permalink: /cv/
             <strong>Postdoctoral Researcher</strong>, Institute of New Economic Thinking, University of Oxford, Oxford, United Kingdom
           </div>
           <ul class="cv-bullet-list">
-            <li>Led quantitative analyses on savings and investing behaviors across Europe and the US, uncovering key patterns that informed policy recommendations.</li>
-            <li>Designed and conducted randomised controlled trials to assess the impact of financial education interventions on investment behaviour. Treatment led to an 18 percentage point improvement in participants' final decision outcomes.</li>
-            <li>Developed comprehensive survey instruments using Qualtrics, resulting in 15% higher completion rates and improved data quality.</li>
+            <li>Spearheaded quantitative analyses using machine learning on savings and investing behaviors across Europe and the US, uncovering key patterns that informed policy recommendations for financial well-being.</li>
+            <li>Led a randomized controlled trial (RCT) evaluating financial education’s impact on investment behavior, improving participants’ financial decision-making by 18 percentage points.</li>
+            <li> Designed and deployed a 16-item survey using Qualtrics to gather data for a randomized controlled trial (RCT) on investing behavior. Recruited a demographically representative sample of 2,500+ people from the U.S. through Prolific, yielding high-quality data for causal analyses.</li>
             <li>Managed complex pipelines, integrating, cleaning, and transforming data from diverse sources for cross-national comparative analyses.</li>
+            <li>Published 2 peer-reviewed articles in high-impact journals, demonstrating strong analytical capabilities and research expertise.</li>
           </ul>
         </div>
         
@@ -86,9 +87,9 @@ permalink: /cv/
             <strong>Expert Researcher</strong>, European Commission, Seville, Spain
           </div>
           <ul class="cv-bullet-list">
-            <li>Analyzed microdata from 12 countries to identify critical trends in income and employment from 1980 to 2020.</li>
-            <li>Created policy briefings that directly informed EU-level economic initiatives, receiving commendation for clarity and actionable insights.</li>
-            <li>Developed interactive dashboards that enabled policymakers to explore complex socioeconomic data, leading to more targeted intervention strategies.</li>
+            <li>Analyzed microdata from 12 countries using Python and R to identify critical trends in income and employment from 1980 to 2020.</li>
+            <li>Created policy briefings based on complex data analysis that directly informed EU-level economic initiatives.</li>
+            <li>Simplified complex statistical insights into clear, interactive dashboards that helped policymakers quickly grasp key trends and craft targeted interventions.</li>
           </ul>
         </div>
         
@@ -101,7 +102,6 @@ permalink: /cv/
             <li>Applied machine learning, multilevel modeling and causal inference methods to identify previously unrecognized patterns in socioeconomic data across 26+ countries.</li>
             <li>Designed and executed rigorous data harmonization protocols for large-scale, longitudinal, cross-national datasets comprising millions of observations.</li>
             <li>Created reproducible research workflows in R, enabling other researchers to build upon findings and ensuring analytical transparency.</li>
-            <li>Published 3 peer-reviewed articles in high-impact journals, demonstrating strong analytical capabilities and research expertise.</li>
             <li>Presented research findings at 11 international conferences, effectively communicating complex statistical concepts to diverse audiences.</li>
           </ul>
         </div>
@@ -141,6 +141,7 @@ permalink: /cv/
           <div class="cv-date-badge">2023-2024</div>
           <div class="cv-edu-inline">
             <strong>Master of Science in Data Science</strong>, University of Texas at Austin, U.S.A.
+              <span class="cv-gpa">GPA: 3.80/4.0</span>
           </div>
         </div>
         
@@ -148,6 +149,7 @@ permalink: /cv/
           <div class="cv-date-badge">2018-2023</div>
           <div class="cv-edu-inline">
             <strong>PhD in Social Sciences</strong>, University of Lausanne, Switzerland
+              <span class="cv-gpa">GPA: No grade per university policy</span>
           </div>
         </div>
         
@@ -155,6 +157,7 @@ permalink: /cv/
           <div class="cv-date-badge">2017-2018</div>
           <div class="cv-edu-inline">
             <strong>Master in Sociology and Demography</strong>, Pompeu Fabra University, Barcelona, Spain
+              <span class="cv-gpa">GPA: 3.45/4.0</span>
           </div>
         </div>
         
@@ -162,6 +165,7 @@ permalink: /cv/
           <div class="cv-date-badge">2016-2017</div>
           <div class="cv-edu-inline">
             <strong>Master in Political Philosophy</strong>, Pompeu Fabra University, Barcelona, Spain
+              <span class="cv-gpa">GPA: 3.45/4.0</span>
           </div>
         </div>
         
