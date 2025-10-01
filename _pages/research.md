@@ -11,6 +11,9 @@ permalink: /research/
       <div class="publication-item">
         <div class="publication-title">The Myth of the Middle Class Squeeze: Employment and Income by Class in Six Western Countries, 1980-2020</div>
         <div class="publication-meta">Moawad, Jad, Oesch, Daniel. 2024.</div>
+        <div class="publication-description">
+In this project, we challenged the popular narrative of the "middle-class squeeze" by leveraging four decades of complex household microdata from the Luxembourg Income Study across six major economies, including the US, UK, and Germany. Moving beyond simplistic income brackets, we developed a novel, occupation-based classification model to segment populations into more meaningful economic groups. This allowed for a more granular analysis of how employment and income trends truly evolved from 1980 to 2020. Our analysis revealed that, contrary to the prevailing myth, middle-class employment expanded significantly. The real economic story was the decline of the working class, which faced shrinking job shares and stagnant household income growth, particularly in the US and Germany where it was less than 0.5% per year. This work showcases my ability to handle large-scale longitudinal data, engineer insightful features to redefine a problem, and derive clear, powerful conclusions that challenge long-held assumptions. It’s a powerful example of using data not just to find patterns, but to tell a more accurate story about complex economic shifts.
+         </div> 
         <div class="publication-links">
           <a href="https://journals.sagepub.com/doi/full/10.1177/00104140241271166">Comparative Political Studies</a>
           <a href="https://github.com/jad-moawad/How-the-Great-Recession-Changed-Class-Inequality-Evidence-from-23-European-Countries">Replication code</a>
