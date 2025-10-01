@@ -17,7 +17,7 @@ permalink: /research/
           This project demonstrates skills directly applicable to industry problems: handling large-scale longitudinal data, implementing sophisticated causal inference techniques, conducting thorough sensitivity analyses, and extracting actionable insights that challenge conventional wisdom. The ability to find non-obvious patterns in complex data is exactly what drives product improvements and business strategy.
         </div>
         <div class="publication-links">
-          <a href="https://doi.org/10.1016/j.rssm.2025.100000">Research in Social Stratification and Mobility</a>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0049089X22001405">Research in Social Stratification and Mobility</a>
         </div>
       </div>
       <div class="publication-item">
