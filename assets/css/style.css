@@ -635,3 +635,31 @@ h1 {
   height: auto;
   vertical-align: middle;
 }
+
+
+/* Publication description styling */
+.publication-description {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+  padding-left: 2px;
+}
+
+/* Add some spacing between publications when they have descriptions */
+.publication-item {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+/* Adjust links positioning with descriptions */
+.publication-links {
+  margin-top: 12px;
+}
