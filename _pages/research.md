@@ -26,6 +26,12 @@ This work highlights my core skills in managing large-scale longitudinal data, a
       <div class="publication-item">
         <div class="publication-title">How the Great Recession Changed Class Inequality: Evidence from 23 European Countries</div>
         <div class="publication-meta">Moawad, Jad. 2023.</div>
+ <div class="publication-description">
+          In this project, I tackled the question of how major economic downturns impact different population segments. Using a large-scale dataset covering <strong> 2.2 million </strong> people across 23 countries over 14 years, I investigated how the 2008 Great Recession and double dip recession affected earnings inequality. 
+I deployed two robust analytical strategies: <strong>  three-level multilevel modeling </strong> and  <strong> multivariate time-series analysis </strong>. These methods test competing hypotheses and control for country-specific variations. This dual approach ensured the insights were statistically sound and captured the dynamic nature of the economic shock.
+My analysis delivered a clear, data-backed finding: the recession significantly widened the earnings gap, placing a disproportionate financial burden on the working class. This project showcases my ability to handle complex longitudinal data, perform comparative analysis across different national contexts, conduct extensive robustness testing, and translate results into a clear narrative. It demonstrates the skills needed to analyze how external events affect diverse user segments, providing the data-driven insights necessary to inform strategy and product decisions in a volatile global marketplace.
+<div> 
+  
         <div class="publication-links">
           <a href="https://doi.org/10.1016/j.ssresearch.2022.102829">Social Science Research</a>
           <a href="https://github.com/jad-moawad/How-the-Great-Recession-Changed-Class-Inequality-Evidence-from-23-European-Countries">Replication code</a>
