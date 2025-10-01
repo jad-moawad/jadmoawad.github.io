@@ -9,7 +9,7 @@ permalink: /teaching/
   <div class="teaching-role">Teaching Assistant at University of Lausanne for:</div>
   <ul class="courses-list">
     <li class="course-item">
-      <span class="course-name">Social Stratification and the Life Course</span>
+      <span class="course-name">Social Stratification and the Life Course Analysis</span>
       <span class="course-date">2020-2023</span>
     </li>
     <li class="course-item">
