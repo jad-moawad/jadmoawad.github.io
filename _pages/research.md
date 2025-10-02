@@ -1,3 +1,8 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
 <div class="research-section">
   <div class="research-category">
     <h2>Peer-reviewed</h2>
