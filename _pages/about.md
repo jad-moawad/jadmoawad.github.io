@@ -4,8 +4,8 @@ title: Jad Moawad
 permalink: /about/
 ---
 
-I translate complex data into actionable insights that inform strategic decisions and address real-world challenges. My experience spans quantitative research, machine learning, and experimental design, honed at institutions such as the University of Oxford and the European Commission. This background allows me to offer a precise blend of analytical rigor and practical solutions. 
+I'm a data scientist with a research background in **causal inference and experimental design**. At the **University of Oxford**, I designed and executed an A/B test end-to-end, from questionnaire design and sample recruitment to analysis, studying financial product adoption, then built a Causal Forest model that improved user targeting efficiency by **23%**. At the **European Commission**, I designed ETL pipelines processing millions of records across 12 countries to support evidence-based policy.
 
-Proficient in Python, R, SQL, advanced statistical modeling, data pipelines, and visualization platforms (Tableau, Power BI), I excel at leveraging diverse data sets to deliver meaningful insights. From designing experiments and building predictive algorithms to crafting compelling data narratives, I consistently contribute effective strategies aimed at operational excellence and sustainable growth.
+My work sits at the intersection of rigorous statistical thinking and practical impact: designing experiments, building predictive models, and turning messy data into decisions that hold up under scrutiny. I hold a PhD in Quantitative Social Sciences from the University of Lausanne and a Master's in Data Science from the University of Texas at Austin. I'm most at home working with **Python, R, and SQL** on problems where getting the causal story right actually matters.
 
-Currently based in Toronto, Canada, I hold Permanent Residence status and am actively exploring opportunities to bring my expertise and passion for data-driven decision-making to new teams and challenges. Please feel free to review my portfolio, and let’s discuss how I can add value to your organization.
+I'm based in Toronto and open to new opportunities. Take a look around, or get in touch on : moawad.jad@gmail.com.
